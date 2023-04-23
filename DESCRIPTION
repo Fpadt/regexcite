@@ -1,13 +1,17 @@
 Package: regexcite
-Title: What the Package Does (One Line, Title Case)
+Title: Make Regular Expressions More Exciting
 Version: 0.0.0.9000
 Authors@R: 
-    person("floris", "padt", , "floris@fmpadt.nl", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("floris", "padt", , "floris@smart-r.nl.nl", role = c("aut", "cre"),
+    comment = c(ORCID = "0009-0006-4729-1783"))
+Description: Convenience functions to make some common tasks with string
+    manipulation and regular expressions a bit easier.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 URL: https://github.com/Fpadt/regexcite
 BugReports: https://github.com/Fpadt/regexcite/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
